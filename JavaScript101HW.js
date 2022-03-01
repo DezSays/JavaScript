@@ -54,3 +54,91 @@
 
 // totalAmount(100, 'fair')
 
+
+
+
+
+
+
+
+// Print numbers regular
+
+
+// Solution using a while loop
+
+// let count = 1; 
+
+// while (count <= 10){
+//     console.log(count)
+//     count++;  
+
+// }
+
+// Solution using a for loop 
+
+// for(let count = 1; count <= 10; count++){
+
+//     console.log(count)
+
+// }
+
+
+
+
+
+
+// print numbers in reverse 
+
+// Solution using a while loop
+
+// let count = 10; 
+
+// while (count <= 10 && count > 0){
+//     console.log(count)
+//     count--;  
+
+// }
+
+
+
+
+
+// Solution using a for loop 
+
+// for(let count = 10; count <= 10 && count > 0; count--){
+
+//     console.log(count)
+
+// }
+
+
+
+
+
+
+// print square 
+
+// function printSquare(count){
+
+//     let string = "";
+//         for(let i=0; i < count; i++){
+//             for(let innerCount = 0; innerCount < count; innerCount++){
+//                 string += '*';
+//             }
+//             string += '\n';    
+//         }
+// console.log(string);
+// }
+
+// console.log(printSquare(5))
+
+
+
+
+
+// Print box 
+
+function printBox(aSide, bSide){
+
+}
+
