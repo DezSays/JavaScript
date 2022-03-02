@@ -64,23 +64,23 @@
 // Print numbers regular
 
 
-// Solution using a while loop
-
-// let count = 1; 
-
-// while (count <= 10){
-//     console.log(count)
-//     count++;  
-
+// Solution using a for loop
+// function printNumbers(start, end){
+//     for(let i= start; i<=end; i++){
+//         console.log(i)
+//     }
 // }
+// printNumbers(1,10)
 
-// Solution using a for loop 
 
-// for(let count = 1; count <= 10; count++){
+// function printNumbers(start, end){
+//     while (start<= end) {
+//         console.log(start)
+//         start++
+//     }
+//     }
+// printNumbers(1,10)
 
-//     console.log(count)
-
-// }
 
 
 
@@ -136,9 +136,15 @@
 
 
 
-// Print box 
+// Print box - unsolved
 
-function printBox(aSide, bSide){
 
-}
 
+function printBox(width, height){
+    let count = 0;{
+    console.log("*" + (" ".repeat(height - 2)) + "*")
+    count++
+        }
+        console.log("*".repeat(width))
+    }
+printBox(6,4)
